@@ -13,7 +13,7 @@ if (!defined('APP_WEB_SYSADMIN_DIR') && defined('APP_WED_SYSADMIN_DIR')) define(
 require __DIR__.'/../core/php/Config.php';
 $CONFIG = new Config();
 require APP_ROOT_DIR.'/config.php';
-require __DIR__.'/vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 
 /**
